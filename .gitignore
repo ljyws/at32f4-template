@@ -1,0 +1,18 @@
+# 构建产物
+build/
+cmake-build-*/
+
+# IDE
+.idea/
+.vscode/
+*.ioc.user
+
+# 生成的中间文件
+*.hex
+*.bin
+*.map
+*.elf
+compile_commands.json
+
+# macOS
+.DS_Store
